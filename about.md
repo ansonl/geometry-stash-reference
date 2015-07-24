@@ -23,17 +23,3 @@ Additional Features:
 • iCloud Drive: Access created slides on all your devices. Write on the computer and view on the go.
 
 • Bulk Import: Distribute multiple custom slides using a single bulk import file. 
-
-What others have said about Geometry Stash:
-
- > Geometry Stash Offers Comprehensive Mathematical Guide 
- - The iPhone App Review
-
-> My pick for Geometry Stash in terms of what to use it for is actually studying for exams. It certainly beats the flash card system I used for my SATs 
-- AppBite
-
-> Don't let your Math assignments get you down when you have Geometry Stash to help you through 
-- CooliPhoneApps.com
-
-> [Mirroring] would be great in a classroom or for a group study session 
-- EDUInReview
