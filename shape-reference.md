@@ -2,6 +2,7 @@
 layout: page
 title: Shape Drawing Reference
 permalink: /shape-drawing-reference/
+weight: 1
 ---
 
 Create custom slides for Geometry Stash by writing your own slides files. 
@@ -199,7 +200,7 @@ Putting it all together
 ------
 The preloaded sample file
 
-``json
+```json
 {
   "elements": [
     {

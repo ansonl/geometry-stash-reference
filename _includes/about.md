@@ -1,9 +1,3 @@
----
-layout: page
-title: About
-permalink: /about/
----
-
 Geometry Stash is a geometry reference app for iOS. 
 
 > Instead of paging through their textbook for the theorems, now students can use this app 

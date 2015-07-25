@@ -3,13 +3,38 @@ title: 'Geometry Stash'
 email: anson@ansonliu.com
 description: > # this means to ignore newlines until "baseurl:"
   Geometry Stash blog and reference
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://geometrystash.com" # the base hostname & protocol for your site
 twitter_username: ansonvliu
 github_username:  ansonl
 
 # Build settings
 markdown: kramdown
+
+source: .
+destination: ./_site
+paginate: 8
+#http://stackoverflow.com/questions/20829006/jekyll-paginator-not-working
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Custom variables
+version: "1.1.0"
+
+# Options
+custom_header: true
+custom_nav_footer: true
+reverse: false
+
+
 
 kramdown:
     input: GFM
