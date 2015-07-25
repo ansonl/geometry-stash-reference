@@ -4,4 +4,5 @@ title: Geometry Stash
 permalink: /
 ---
 
-{% markdown about.md %}
+{% capture my-include %}{% include about.md %}{% endcapture %}
+{{ my-include | markdownify }}
