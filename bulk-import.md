@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Bulk Import Info
+title: Bulk Import Reference
 permalink: /bulk-import/
+weight: 5
 ---
 
 Import multiple files at once into Geometry Stash using the bulk import file format. There are two types of bulk import files:

@@ -2,7 +2,7 @@
 layout: page
 title: Shape Drawing Reference
 permalink: /shape-drawing-reference/
-weight: 1
+weight: 4
 ---
 
 Create custom slides for Geometry Stash by writing your own slides files. 
@@ -579,5 +579,7 @@ Experimental SLIDE editor web app
 Wow, you are still reading this. Congrats! :D
 
 I created a web app to help with previewing and editting slides when I did not access to normal development tools and edit/preview workflow in the 2015 summer (basically in Windows with a text editor). 
-![Sample File]({{ site.baseurl }}/img/sample-file.png)
+
+![Sample File]({{ site.url }}/img/sample-file.png)
+
 This web app is especially useful for translating elements up, down, left, right. **No support is provided for the web app.** The web app can be used [here](http://ansonl.github.io/geometry-stash-web-slide-editor) and the source is available on [github](http://github.com/ansonl/geometry-stash-web-slide-editor) if you dare to look. 

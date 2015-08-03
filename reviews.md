@@ -2,6 +2,7 @@
 layout: page
 title: Reviews
 permalink: /reviews/
+weight: 3
 ---
 
 What others have said about Geometry Stash
