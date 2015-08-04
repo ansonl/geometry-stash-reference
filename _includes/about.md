@@ -8,8 +8,7 @@
 
 Refresh your knowledge of the most commonly used theorems, postulates, and corollaries. Just swipe a term to view its diagram and description!
 
-Make your own slides to share with others using a built in editor. 
-Share slides in a snap — Airdrop, iCloud, Message, Mail, and more! Your creations will be rendered as vector graphics that retain their crisp and sharp edges no matter what device others and you use!
+Make your own slides using a built in editor. Share slides in a snap using Airdrop, iCloud, Message, Mail, and more! Your creations will be rendered as vector graphics that retain their crisp and sharp edges no matter what device others and you use!
 
 
 

@@ -7,17 +7,19 @@ weight: 4
 
 Create custom slides for Geometry Stash by writing your own slides files. 
 
-A slide file is a JSON file with key value dictionary at its root. A barebones slide file is shown below. All code examples here are part of the default `#Shape Element Drawing Demo` slides preloaded by Geometry Stash. 
+A slide file is a JSON file with key value dictionary at its root. A barebones slide file is shown below. All code examples can be found in the `#Shape Element Drawing Demo` slide preloaded in Geometry Stash. 
+
+![#Shape Element Drawing Demo]({{ site.url }}/img/preloaded-sample-export.jpg)
 
 ```json
 {
   "elements": [
-    /* PUT ELEMENTS HERE
+    /* PUT ELEMENTS HERE */
   ],
   "bgcolor": "#FFFFFF",
   "title": "#Shape Element Drawing Demo",
   "author": "anson",
-  "description": "A sample file that demonstrates Geometry Stash shape drawing capabilities. "
+  "description": "A sample file."
 }
 ```
 
@@ -38,8 +40,15 @@ Key `title` contains a string value of the slide display title. This is the name
 Key `author` contains a string value of the slide author. 
 Key `description` contains a string description of the slide. 
 
+Coordinate System
+------
+
 The coordinate system of slides is similar to [HTML Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial). It is in the fourth quardrant of the [Cartesian Plane](http://www.purplemath.com/modules/plane3.htm). The X axis increase to the right and Y axis increases downwards. 
 Angular measurements are in degrees, start at the 0 at the three'oclock postion and increase clock wise. 
+
+**Geometry Stash currently renders slides in a 4:3 aspect ratio that is 4000px × 3000px.** The rendered slide is scaled down from this resolution to fit device screens.
+
+Please [contact](mailto:anson@geometrystash.com?subject=Geometry%20Stash%20Shape%20Drawing%20Inquiry) me if you have any questions about making your own slides. 
 
 Line
 ------
@@ -279,7 +288,7 @@ The preloaded sample file
       "fontHeight": 100,
       "fillColor": "#FFFFFF",
       "interactive": true,
-      "text": "Rectangles\n\n↓ Ordering\nSet which shape appears on top by changing the element order in the slide file elements array.\nText will always appear above shape elements."
+      "text": "Rectangles"
     },
     {
       "shapeType": "rectangle",
@@ -493,7 +502,7 @@ The preloaded sample file
       "fontHeight": 150,
       "fillColor": "#000000",
       "interactive": true,
-      "text": "↓ Chain of elements\nYou can chain line and curve elements into single elements that start at the end of the previous element in the chain.\nThe chain below is a  line → cubic bézier curve →  line"
+      "text": "↓ Chain of elements"
     },
     {
       "shapeType": "chain",
@@ -539,7 +548,7 @@ The preloaded sample file
       "bgcolor": "#222222",
       "interactive": true,
       "alignment" : "justified",
-      "text": "↓ Some interactive text.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "text": "↓ Some interactive text."
     },
     {
       "shapeType": "text",
@@ -551,7 +560,7 @@ The preloaded sample file
       "fillColor": "#000000",
       "interactive": false,
       "alignment" : "center",
-      "text": "Text is non-interactive by default.\nSome non interactive text.\n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "text": "Text is non-interactive by default."
     },
     {
       "shapeType": "text",
@@ -563,13 +572,13 @@ The preloaded sample file
       "fillColor": "#000000",
       "interactive": true,
       "alignment" : "left",
-      "text": "↓ Making and sharing custom slides is easy, click 📁 to manage slides, check out documentation 📖 online at GeometryStash.com"
+      "text": "↓ Documentation 📖 online at GeometryStash.com"
     }
   ],
   "bgcolor": "#FFFFFF",
   "title": "#Shape Element Drawing Demo",
   "author": "anson",
-  "description": "A sample file that demonstrates Geometry Stash shape drawing capabilities. "
+  "description": "A sample file."
 }
 ```
 

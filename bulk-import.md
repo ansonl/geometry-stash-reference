@@ -36,6 +36,8 @@ The `filenameBase` key value must be a string value. All downloaded files will b
   * customBaseFilenameForDownloadedFiles2
   * customBaseFilenameForDownloadedFiles3
 
+**Bulk import will overwrite any existing files with the same name.**
+
 *Decimal version number*
 ------
 
