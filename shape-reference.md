@@ -9,7 +9,8 @@ Create custom slides for Geometry Stash by writing your own slides files.
 
 A slide file is a JSON file with key value dictionary at its root. A barebones slide file is shown below. All code examples can be found in the `#Shape Element Drawing Demo` slide preloaded in Geometry Stash. 
 
-![#Shape Element Drawing Demo]({{ site.url }}/img/preloaded-sample-export.jpg)
+
+<img src="{{ "img/preloaded-sample-export.jpg" | prepend: site.baseurl }}" width="330" align="left" style="margin-bottom:0" alt="#Shape Element Drawing Demo">
 
 ```json
 {
@@ -49,6 +50,19 @@ Angular measurements are in degrees, start at the 0 at the three'oclock postion 
 **Geometry Stash currently renders slides in a 4:3 aspect ratio that is 4000px × 3000px.** The rendered slide is scaled down from this resolution to fit device screens.
 
 Please [contact](mailto:anson@geometrystash.com?subject=Geometry%20Stash%20Shape%20Drawing%20Inquiry) me if you have any questions about making your own slides. 
+
+Edit/Preview Workflow
+------
+
+There are many ways to edit/preview slides
+
+  * On the device
+    *The built in editor on the device has an instant preview in the upper right of the screen.
+
+  * On the computer (OS X)
+    * If the device does not support iCloud Drive or you choose to store slides locally, you may import/export slides using [iTunes File Sharing](https://support.apple.com/en-us/HT201301).
+    * If you are using iCloud Drive, you may access your files through iCloud Drive using OS X. 
+      * Sometimes the *iCloud Drive* folder in Finder may not visible and it is under `~/Library/Mobile Documents/iCloud~com~ansonliu~com~geometry-stash`. If you cannot view the your *home directory `Library`* folder, use Finder Go **⇧⌘G** to reach it. 
 
 Line
 ------
@@ -587,8 +601,8 @@ Experimental SLIDE editor web app
 
 Wow, you are still reading this. Congrats! :D
 
-I created a web app to help with previewing and editting slides when I did not access to normal development tools and edit/preview workflow in the 2015 summer (basically in Windows with a text editor). 
+I created a web app to help with previewing and editting slides when I did not have access to normal development tools and edit/preview workflow in the 2015 summer (basically in Windows with a text editor). 
 
 ![Sample File]({{ site.url }}/img/sample-file.png)
 
-This web app is especially useful for translating elements up, down, left, right. **No support is provided for the web app.** The web app can be used [here](http://ansonl.github.io/geometry-stash-web-slide-editor) and the source is available on [github](http://github.com/ansonl/geometry-stash-web-slide-editor) if you dare to look. 
+This web app is especially useful for translating elements up, down, left, right. In case you are wondering why there are red rectangles around the text elements, they represent the estimated visible area of the rendered text. **No support is provided for the web app.** The web app can be used [here](http://ansonl.github.io/geometry-stash-web-slide-editor) and the source is available on [github](http://github.com/ansonl/geometry-stash-web-slide-editor) if you dare to look. 
