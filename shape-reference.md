@@ -48,6 +48,8 @@ The coordinate system of slides is similar to [HTML Canvas](https://developer.mo
 Angular measurements are in degrees, start at the 0 at the three'oclock postion and increase clock wise. 
 
 **Geometry Stash currently renders slides in a 4:3 aspect ratio that is 4000px × 3000px.** The rendered slide is scaled down from this resolution to fit device screens.
+You may set a **custom canvas size** by specifying integer values for the `canvasWidth` and `canvasHeight` keys in the root dictionary. Both keys must be set for a custom canvas size to take effect.
+
 
 Please [contact](mailto:anson@geometrystash.com?subject=Geometry%20Stash%20Shape%20Drawing%20Inquiry) me if you have any questions about making your own slides. 
 
@@ -87,7 +89,8 @@ A `rectangle` element draws a rectangle at `origin` of `width` and `height`.
 
 Circle
 ------
-A `circle` element draws a circle at `origin` of radius `radius`.
+A `circle` element draws a circle at `origin` of radius `radius`. 
+The radius is scaled the [canvas](#coordinate-system) height (default is 3000px).
 
 ```json
 {
@@ -104,6 +107,7 @@ A `circle` element draws a circle at `origin` of radius `radius`.
 Arc
 ------
 An `arc` element draws an arc at `origin` of radius `radius` from `startAngle` to `endAngle`. **Arc draws counter-clockwise while the angular measurement increases clockwise.**
+The radius is scaled the [canvas](#coordinate-system) height (default is 3000px).
 
 ```json
 {
@@ -189,6 +193,7 @@ A `chain` element starts at `origin` and contains an array of elements. These el
 Text
 ------
 A `text` element draws a textbox at `origin` of `width` and `height`. It can be made interactive by setting the `interactive` key to `true`. **Textboxs are non-interactive by default.**
+Text height is scaled to the [canvas](#coordinate-system) height.
 
 ```json
 {
